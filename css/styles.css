@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body a{
+    text-decoration: none;
+}
+
+
+.vacc{
+    position: absolute;
+    left: 110px;
+    top: 30px;
+    color: rgb(31, 80, 238);
+
+}
+
+a:visited { text-decoration: none; }
+
+
+ul{
+    list-style: none;
+}
+
+
+
+.menu{
+     background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    width: 100%; 
+    margin-top: 0px;
+    padding-top: 25px;
+    z-index: 1;
+    
+    
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+.menubar{
+    color: rgb(109, 123, 147);
+    font-size: 20px;
+}
+
+.btn1{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 4em;
+    width: 10em;
+    font-size: 1em;
+    padding: 2px 6px;
+
+}
+
+.btn1 a{
+    color: aliceblue;
+}
+
+.img1{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    width: 40%;
+    z-index: -1;
+    
+}
+
+.secc1{
+    position: relative;
+    margin-top: 120px;
+}
+
+.secc1 h1{
+    position: relative;
+    color: rgb(31, 62, 114);
+    font-size: 60px;
+    font-weight: bolder;
+    left: 120px;
+}
+
+.info1{
+    position: relative;
+    left: 120px;
+    color: rgb(109, 123, 147);
+}
+
+.icons1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 120px;
+    gap: 50px;
+
+}
+.icons1 a{
+    color: rgb(31, 62, 114)
+}
+
+.prog{
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.secc2{
+margin-top: 250px;
+}
+
+.titulo1 {
+    position: relative;
+    top: 20px;
+    left: 90px;
+    color: rgb(31, 62, 114);
+}
+
+.titulo1 a{
+    color: rgb(31, 62, 114);
+    font-size: 30px;
+}
+
+
+.marcas ul{
+    position: relative;
+    display: flex;
+    justify-content:space-between ;
+    
+}
+.marcas img{
+    width: 70%;
+}
+
+.iconos2 {
+    display: inline-block;
+    font-size: 14px;
+    background-color: rgb(210, 233, 255);
+    color:rgb(0, 78, 180);
+    width: 32px;
+    height: 32px;
+    text-align:center;
+    line-height: 32px;
+    border-radius: 9px;
+}
+
+.flotante {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    height: auto;
+    width: 700px;
+    align-items: middle;
+    top: 50px;
+    left: 60px;
+    background-color:rgba(245, 248, 255, 0.7);
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.288);  
+    border-radius: 4px;
+}
+
+.titlefloat {
+    text-align: center;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+    margin-left: 0.4em;
+    
+
+}
+
+.valuesFloat {
+    margin-left:20%; 
+    font-size:1.5em; 
+    font-weight: 500; 
+    color: rgb(21, 49, 92);
+}
+
+.btn2{
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 4em;
+    width: 10em;
+    font-size: 16px;
+    padding: 2px 6px;
+    margin-top: 25px;
+}
+
+.secc3{
+    position: relative;
+    padding-top: 70px;
+    left: 90px;
+}
+
+.info2 h1{
+    color: rgb(0, 78, 180);
+    font-size: 40px;
+}
+
+.info2 p{
+    color: rgb(109, 123, 147);
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    width: 90%;
+}
+
+.card.vertical {
+    flex-direction: column;
+}
+.card.vertical h3{
+    color: rgb(31, 62, 114);
+}
+.card.vertical p{
+    color: rgb(109, 123, 147);
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgba(250, 250, 255);
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.card .card-paragraph {
+    margin-bottom: 0;
+    font-size: 1em;
+}
+
+.secc4{
+    position: relative;
+    margin-top: 200px;
+}
+
+.img3{
+    margin-top: 100px;
+    width: 40%;
+}
+
+.infosecc4{
+    position: absolute;
+    top: 0;
+    right: 90px;
+}
+
+.infosecc4 h1{
+    font-size: 40px;
+    color: rgb(0, 78, 180);
+}
+
+.infosecc4 p{
+    color: rgb(109, 123, 147);
+    font-size: 15px;
+}
+
+.acordposition{
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top: 250px;
+    right: 120px;
+    gap: 2em;
+    color: rgb(31, 62, 114);
+
+}
+
+.acordposition img{
+    height: 14px;
+    width: 14px;
+}
+
+.acordposition button{
+    gap: 20px;
+    color: rgb(31, 62, 114);
+}
+
+.secc5{
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.secclist{
+    display: grid;
+}
+.secclist h2{
+    color: rgb(0, 78, 180);
+}
+
+.secclist p{
+    color: rgb(109, 123, 147);
+    margin-top: 30px;
+}
+
